@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    compile(group: 'com.google.android', name: 'android', version:'2.1_r1')
+    compileOnly(group: 'com.google.android', name: 'android', version:'2.1_r1')
 }
 
 task javadocJar(type: Jar) {
