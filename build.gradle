@@ -41,3 +41,7 @@ uploadArchives {
         }
     }
 }
+
+wrapper {
+    distributionType = Wrapper.DistributionType.ALL
+}
